@@ -1,7 +1,29 @@
-
 import { prisma } from "@/lib/prisma";
 import { NextResponse } from "next/server";
 
+// GET all orders
+export async function GET() {
+    try {
+        const orders = await prisma.order.findMany({
+            include: {
+                items: {
+                    include: {
+                        menuItem: true,
+                    },
+                },
+            },
+            orderBy: {
+                createdAt: 'desc',
+            },
+        });
+        return NextResponse.json(orders);
+    } catch (error) {
+        console.error("Error fetching orders:", error);
+        return NextResponse.json({ error: "Failed to fetch orders" }, { status: 500 });
+    }
+}
+
+// POST create new order
 export async function POST(req: Request) {
     try {
         const body = await req.json();
@@ -27,9 +49,12 @@ export async function POST(req: Request) {
             });
         }
 
+        // Add 5% tax
+        const tax = Math.round(totalAmount * 0.05);
+        totalAmount = totalAmount + tax;
+
         // Add parcel charges if applicable
         if (type === 'PARCEL') {
-            // simple hardcode for now, or fetch from StoreConfig
             totalAmount += 10;
         }
 
@@ -38,12 +63,19 @@ export async function POST(req: Request) {
                 customerName,
                 mobileNumber,
                 tableNumber,
-                type,
+                type: type || 'DINE_IN',
                 specialNote,
                 totalAmount,
                 status: "PENDING",
                 items: {
                     create: orderItemsData,
+                },
+            },
+            include: {
+                items: {
+                    include: {
+                        menuItem: true,
+                    },
                 },
             },
         });

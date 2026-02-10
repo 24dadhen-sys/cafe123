@@ -1,0 +1,23 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/_app": [
+      "static/chunks/c799f_next_dist_compiled_f114ae42._.js",
+      "static/chunks/c799f_next_dist_shared_lib_2f71e971._.js",
+      "static/chunks/c799f_next_dist_client_8da52ba3._.js",
+      "static/chunks/c799f_next_dist_e118c2c2._.js",
+      "static/chunks/c799f_next_app_459f739b.js",
+      "static/chunks/[next]_entry_page-loader_ts_1ec8638e._.js",
+      "static/chunks/c799f_react-dom_a437484d._.js",
+      "static/chunks/c799f_01a5eac5._.js",
+      "static/chunks/[root-of-the-server]__78295633._.js",
+      "static/chunks/_gemini_antigravity_scratch_sippins-cafe_pages__app_2da965e7._.js",
+      "static/chunks/turbopack-_gemini_antigravity_scratch_sippins-cafe_pages__app_f408ec5b._.js"
+    ]
+  },
+  "ampFirstPages": []
+}
