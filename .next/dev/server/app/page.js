@@ -1,6 +1,6 @@
 var R=require("../chunks/ssr/[turbopack]_runtime.js")("server/app/page.js")
 R.c("server/chunks/ssr/c799f_next_dist_2217108e._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__07fdab0d._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__21108566._.js")
 R.c("server/chunks/ssr/c799f_b213a5c3._.js")
 R.c("server/chunks/ssr/[externals]__e8a2741f._.js")
 R.c("server/chunks/ssr/_gemini_antigravity_scratch_sippins-cafe_app_22971051._.js")

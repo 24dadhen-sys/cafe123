@@ -1,0 +1,23 @@
+{
+  "/(customer)/page": "app/(customer)/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/menu/page": "app/admin/menu/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/admin/sales/page": "app/admin/sales/page.js",
+  "/api/admin/categories/route": "app/api/admin/categories/route.js",
+  "/api/admin/menu/[id]/route": "app/api/admin/menu/[id]/route.js",
+  "/api/admin/menu/route": "app/api/admin/menu/route.js",
+  "/api/admin/orders/[id]/route": "app/api/admin/orders/[id]/route.js",
+  "/api/admin/orders/route": "app/api/admin/orders/route.js",
+  "/api/categories/route": "app/api/categories/route.js",
+  "/api/menu/[id]/route": "app/api/menu/[id]/route.js",
+  "/api/menu/route": "app/api/menu/route.js",
+  "/api/orders/[id]/route": "app/api/orders/[id]/route.js",
+  "/api/orders/route": "app/api/orders/route.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/order/[id]/page": "app/order/[id]/page.js",
+  "/page": "app/page.js",
+  "/table/[id]/page": "app/table/[id]/page.js"
+}

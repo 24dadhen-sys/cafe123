@@ -11,8 +11,8 @@ interface MenuItemProps {
         id: string;
         name: string;
         price: number;
-        description?: string;
-        imageUrl?: string;
+        description?: string | null;
+        imageUrl?: string | null;
     };
 }
 

@@ -57,8 +57,8 @@ export default function Home() {
                   key={tableNum}
                   variant={selectedTable === tableNum ? "default" : "outline"}
                   className={`h-14 text-lg font-semibold transition-all ${selectedTable === tableNum
-                      ? "ring-2 ring-primary ring-offset-2 scale-105"
-                      : "hover:scale-105 hover:bg-primary/10"
+                    ? "ring-2 ring-primary ring-offset-2 scale-105"
+                    : "hover:scale-105 hover:bg-primary/10"
                     }`}
                   onClick={() => handleTableSelect(tableNum)}
                   disabled={loading}

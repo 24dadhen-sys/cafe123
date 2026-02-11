@@ -1,0 +1,3 @@
+module.exports=[21601,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(19083);a.n(d("[project]/.gemini/antigravity/scratch/sippins-cafe/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},49103,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(19083);a.n(d("[project]/.gemini/antigravity/scratch/sippins-cafe/node_modules/next/dist/client/components/builtin/global-error.js"))},6436,a=>{"use strict";a.i(21601);var b=a.i(49103);a.n(b)}];
+
+//# sourceMappingURL=c799f_next_dist_client_components_builtin_global-error_2e3825b4.js.map

@@ -1,0 +1,23 @@
+{
+  "/(customer)/page": "/",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/admin/menu/page": "/admin/menu",
+  "/admin/page": "/admin",
+  "/admin/sales/page": "/admin/sales",
+  "/api/admin/categories/route": "/api/admin/categories",
+  "/api/admin/menu/[id]/route": "/api/admin/menu/[id]",
+  "/api/admin/menu/route": "/api/admin/menu",
+  "/api/admin/orders/[id]/route": "/api/admin/orders/[id]",
+  "/api/admin/orders/route": "/api/admin/orders",
+  "/api/categories/route": "/api/categories",
+  "/api/menu/[id]/route": "/api/menu/[id]",
+  "/api/menu/route": "/api/menu",
+  "/api/orders/[id]/route": "/api/orders/[id]",
+  "/api/orders/route": "/api/orders",
+  "/checkout/page": "/checkout",
+  "/favicon.ico/route": "/favicon.ico",
+  "/order/[id]/page": "/order/[id]",
+  "/page": "/",
+  "/table/[id]/page": "/table/[id]"
+}

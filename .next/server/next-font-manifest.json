@@ -1,0 +1,34 @@
+{
+  "app": {
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/(customer)/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/_not-found/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/admin/menu/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/admin/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/admin/sales/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/checkout/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/order/[id]/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ],
+    "[project]/.gemini/antigravity/scratch/sippins-cafe/app/table/[id]/page": [
+      "static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

@@ -58,8 +58,9 @@ export default async function CustomerHome() {
                     <div key={category.id} id={`category-${category.id}`} className="scroll-mt-32">
                         <h2 className="text-xl font-bold mb-4 text-gray-800">{category.name}</h2>
                         <div className="space-y-4">
-                            {category.items.map(item => (
-                                <MenuItem key={item.id} item={item} />
+                            {category.items.map(itm => (
+                                console.log(itm),
+                                <MenuItem key={itm.id} item={itm} />
                             ))}
                         </div>
                     </div>
