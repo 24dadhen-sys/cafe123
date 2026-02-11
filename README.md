@@ -48,3 +48,4 @@ Set `DATABASE_URL` environment variable to your Supabase connection string.
 ---
 
 Built for **Sippin's Cafe** ☕
+typical changes
